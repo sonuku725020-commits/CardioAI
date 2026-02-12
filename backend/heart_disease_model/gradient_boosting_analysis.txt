@@ -1,0 +1,15 @@
+Feature Importance Analysis
+========================================
+
+1. oldpeak: 0.3863
+2. maxheartrate: 0.1607
+3. serumcholestrol: 0.1522
+4. chestpain: 0.1379
+5. slope: 0.0853
+6. restingBP: 0.0467
+7. age: 0.0171
+8. noofmajorvessels: 0.0041
+9. fastingbloodsugar: 0.0037
+10. gender: 0.0031
+11. restingrelectro: 0.0027
+12. exerciseangia: 0.0002

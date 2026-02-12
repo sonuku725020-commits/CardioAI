@@ -1,0 +1,33 @@
+{
+    "original_features": [
+        "patientid",
+        "age",
+        "gender",
+        "chestpain",
+        "restingBP",
+        "serumcholestrol",
+        "fastingbloodsugar",
+        "restingrelectro",
+        "maxheartrate",
+        "exerciseangia",
+        "oldpeak",
+        "slope",
+        "noofmajorvessels",
+        "target"
+    ],
+    "dropped_columns": [
+        "patientid"
+    ],
+    "target_column": "target",
+    "scaling_method": "StandardScaler",
+    "train_size": 700,
+    "validation_size": 150,
+    "test_size": 150,
+    "total_samples": 1000,
+    "target_distribution": {
+        "class_0_no_disease": 420,
+        "class_1_disease": 580,
+        "class_0_percentage": 42.0,
+        "class_1_percentage": 57.99999999999999
+    }
+}

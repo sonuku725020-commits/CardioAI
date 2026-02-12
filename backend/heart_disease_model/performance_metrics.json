@@ -1,0 +1,12 @@
+{
+    "train_accuracy": 1.0,
+    "validation_accuracy": 0.9066666666666666,
+    "test_accuracy": 0.9133333333333333,
+    "test_precision": 0.9518072289156626,
+    "test_recall": 0.8977272727272727,
+    "test_f1_score": 0.9239766081871345,
+    "test_roc_auc": 0.9813049853372434,
+    "cv_mean_accuracy": 0.8785714285714287,
+    "cv_std_accuracy": 0.029277002188455997,
+    "training_date": "2026-02-09 23:58:08"
+}

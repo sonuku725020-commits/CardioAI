@@ -1,0 +1,74 @@
+{
+    "feature_names": [
+        "age",
+        "gender",
+        "chestpain",
+        "restingBP",
+        "serumcholestrol",
+        "fastingbloodsugar",
+        "restingrelectro",
+        "maxheartrate",
+        "exerciseangia",
+        "oldpeak",
+        "slope",
+        "noofmajorvessels"
+    ],
+    "feature_count": 12,
+    "feature_importance": [
+        {
+            "Feature": "age",
+            "Importance": 0.01708448739227487
+        },
+        {
+            "Feature": "gender",
+            "Importance": 0.003075115297534901
+        },
+        {
+            "Feature": "chestpain",
+            "Importance": 0.1378766481638855
+        },
+        {
+            "Feature": "restingBP",
+            "Importance": 0.0466990269492296
+        },
+        {
+            "Feature": "serumcholestrol",
+            "Importance": 0.1522338501236397
+        },
+        {
+            "Feature": "fastingbloodsugar",
+            "Importance": 0.003720731877387245
+        },
+        {
+            "Feature": "restingrelectro",
+            "Importance": 0.0026778717096760498
+        },
+        {
+            "Feature": "maxheartrate",
+            "Importance": 0.1606945385224841
+        },
+        {
+            "Feature": "exerciseangia",
+            "Importance": 0.0002298519031202297
+        },
+        {
+            "Feature": "oldpeak",
+            "Importance": 0.3862695445869036
+        },
+        {
+            "Feature": "slope",
+            "Importance": 0.08530295366348267
+        },
+        {
+            "Feature": "noofmajorvessels",
+            "Importance": 0.004135379810381419
+        }
+    ],
+    "top_5_features": [
+        "oldpeak",
+        "maxheartrate",
+        "serumcholestrol",
+        "chestpain",
+        "slope"
+    ]
+}

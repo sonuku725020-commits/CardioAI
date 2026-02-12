@@ -1,0 +1,65 @@
+
+HEART DISEASE PREDICTION MODEL - SUMMARY REPORT
+Generated: 2026-02-09 18:06:37
+======================================================================
+
+MODEL INFORMATION:
+  Algorithm: Gradient Boosting Classifier
+  Number of Estimators: 100
+  Max Depth: 5
+  Learning Rate: 0.1
+  Min Samples Split: 5
+  Min Samples Leaf: 2
+
+PERFORMANCE METRICS:
+  Training Accuracy:   1.0000
+  Validation Accuracy: 0.9933
+  Test Accuracy:       0.9733
+  
+  Test Precision:      0.9770
+  Test Recall:         0.9770
+  Test F1 Score:       0.9770
+  Test ROC-AUC:        0.9971
+  
+  Cross-Validation:    0.9671 (+/- 0.0466)
+
+TOP 5 IMPORTANT FEATURES:
+        Feature  Importance
+          slope    0.704184
+      restingBP    0.102606
+serumcholestrol    0.043812
+        oldpeak    0.043468
+   maxheartrate    0.023482
+
+DATA INFORMATION:
+  Total Samples: 1000
+  Training Set: 700 samples (70.0%)
+  Validation Set: 150 samples (15.0%)
+  Test Set: 150 samples (15.0%)
+  
+  Target Distribution:
+    No Disease (0): 420 samples (42.0%)
+    Disease (1): 580 samples (58.0%)
+
+MODEL INTERPRETATION:
+  The model shows excellent performance with 97.3% accuracy.
+  The most important feature is 'slope' with 70.4% importance.
+  
+  Key Insights:
+  - High precision (97.7%) indicates low false positive rate
+  - High recall (97.7%) indicates the model catches most disease cases
+  - Balanced F1 score (97.7%) shows good overall performance
+
+FILES SAVED:
+  1. gradient_boosting_model.pkl - Trained model
+  2. scaler.pkl - Feature scaler for preprocessing
+  3. feature_info.json - Feature names and importance
+  4. performance_metrics.json - Model performance metrics
+  5. model_params.json - Model hyperparameters
+  6. preprocessing_info.json - Data preprocessing information
+  7. sample_predictions.json - Sample predictions for testing
+  8. complete_model_package.pkl - Complete model package
+  9. predict_heart_disease.py - Standalone prediction function
+  10. model_summary_report.txt - This summary report
+  
+======================================================================
